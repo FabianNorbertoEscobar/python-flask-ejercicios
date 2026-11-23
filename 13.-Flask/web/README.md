@@ -1,13 +1,5 @@
-## Instalación
+# Aplicación web de tareas
 
-> python3 -m venv env
+Ejemplo de Flask con usuarios, autenticación, tareas, formularios, base de datos MySQL y correo de bienvenida.
 
-> source env/bin/active
-
-> pip install -r requirements.txt
-
-## Ejecución
-
-> python manage.py db init
-
-> python manage.py runserver
+Consultá la [guía principal](../../README.md#aplicación-de-tareas) para instalar dependencias, configurar MySQL y SMTP, ejecutar la aplicación y conocer las precauciones de uso. La [sección de pruebas](../../README.md#pruebas) explica los requisitos y advierte sobre la eliminación de tablas en la base de prueba.
